@@ -1,21 +1,49 @@
+# 🧠 StackIt – A Minimal Q&A Forum (Odoo Hackathon 2025)
 
-# StackIt
+This is a complete web app built for the **Odoo Hackathon 2025**, inspired by the **StackIt** problem statement.
 
-StackIt is a custom Odoo module for tracking and managing user tasks, roles, and notifications.
+StackIt is a lightweight Q&A platform where users can post questions, answer others, tag topics, upvote helpful responses, and receive notifications — all wrapped in a clean and user-friendly interface.
 
-## Features
-- User Roles (Admin, User, Guest)
-- Notification system
-- Clean modular backend
-- Flask + Odoo 17 based
+---
 
-## Installation
-1. Clone this repo.
-2. Place it inside your `custom_addons` directory.
-3. Restart Odoo server and install the module.
+## 🚀 Features Implemented
 
-4. Video Link : [https://www.loom.com/looms/videos
-](https://www.loom.com/share/fed7edd8d44441199e3c5bb67b573418)
+✅ User Authentication (Login/Register)  
+✅ Ask Questions and Post Answers  
+✅ Tags for Filtering and Categorization  
+✅ Upvoting System for Answers  
+✅ Rich Text Editor (bold, lists, links) for Q&A  
+✅ Notification Alerts (new answers, mentions)  
+✅ Admin Controls (delete/moderate questions or answers)  
+✅ Clean Flask Backend with Modular Code Structure  
+✅ Minimalist UI with responsive styling
 
+---
 
-NOTE: Due to time constraints, the solution is implemented as a standalone web app. Core functionality for StackIt (posting questions/answers, tagging, voting) is working. Happy to convert this to a full Odoo module post-event if required.
+## 🧱 Tech Stack
+
+- **Backend**: Flask (Python)
+- **Frontend**: HTML, CSS, Jinja2 Templates
+- **Database**: SQLite (via SQLAlchemy ORM)
+- **Rich Text Editor**: Quill.js
+- **Deployment**: Local (ready for Heroku, Render, etc.)
+
+---
+
+## 🎥 Demo Video
+
+📺 [Watch the full demo](https://www.loom.com/share/fed7edd8d44441199e3c5bb67b573418)
+
+> The demo includes user registration, question posting, answering, voting, admin moderation, and notifications.
+
+---
+
+## 📦 Installation Instructions
+
+```bash
+git clone https://github.com/earlywinter96/stackit.git
+cd stackit
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+flask run
