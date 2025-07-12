@@ -47,3 +47,20 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 flask run
+
+
+---
+
+## ⚠️ Note to Reviewers
+
+Due to time constraints, this was built as a standalone web app in Flask, not as an Odoo module. However, the full functionality outlined in the StackIt problem statement is implemented, and the app is ready to be converted into an Odoo module if required.
+
+We prioritized building a working platform with real user flows and made sure all critical user features (auth, vote, tag, notify, admin, rich text) are included and demonstrated.
+
+---
+
+🙌 **Thank You**
+
+This project was a solo build by **Hemant Solanki** during the Odoo Hackathon 2025. It was a rewarding experience in rapid prototyping, backend modeling, and user-focused design.
+
+Happy to open source, collaborate, or continue development post-event!
