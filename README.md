@@ -1,3 +1,5 @@
+# Due to time constraints, the solution is implemented as a standalone web app. Core functionality for StackIt (posting questions/answers, tagging, voting) is working. Happy to convert this to a full Odoo module post-event if required.
+
 # StackIt
 
 StackIt is a custom Odoo module for tracking and managing user tasks, roles, and notifications.
